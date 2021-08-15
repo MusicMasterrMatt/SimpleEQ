@@ -18,7 +18,7 @@ struct ChainSettings
     
 };
 
-ChainSettings getChainSettings(juce::AudioProcessorValueTreeState& apvts); 
+ChainSettings getChainSettings(juce::AudioProcessorValueTreeState& apvts);
 
 //==============================================================================
 /**
@@ -73,7 +73,17 @@ private:
     
     using MonoChain = juce::dsp::ProcessorChain<CutFilter, Filter, CutFilter>;
     
-    MonoChain leftChain, rightChain; 
+    MonoChain leftChain, rightChain;
+    
+    enum ChainPositions
+    {
+        LowCut,
+        Peak,
+        HighCut
+    };
+    
+    
+    
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (SimpleEQAudioProcessor)
 };
