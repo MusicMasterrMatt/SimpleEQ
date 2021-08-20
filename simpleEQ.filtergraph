@@ -64,7 +64,7 @@
   <FILTER uid="5" x="0.5075" y="0.698076923076923">
     <PLUGIN name="SimpleEQ" format="AudioUnit" category="Effect" manufacturer="yourcompany"
             version="1.0.0" file="AudioUnit:Effects/aufx,J5jz,Manu" uid="66216277"
-            isInstrument="0" fileTime="0" infoUpdateTime="17b0e3ee2db" numInputs="2"
+            isInstrument="0" fileTime="0" infoUpdateTime="17b4f45aa36" numInputs="2"
             numOutputs="2" isShell="0"/>
     <STATE>261.hAGaoMGcv.y0AHv.DTfAGfPBJHwDTTAWsEla0YVXiQWcxUlbTQVXzEFWkwVYsUlaz0hag0VYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDMEla08DDDA..............GPA7cmQOUbpUTDuDf7C....LK1hB.....PyVp4aO55BidUgZKB....PXOFQV.....X1Fki4O.B..Ru.CM.QTwDkLQ6vCQASUI4Fb0QWzNDgUOUGcvUGcRnTMpoGD.HQX0YFdXUkazkFcrUFYHbAIoXiOFsDTUwYniVJppB6r59avFC.......DP..........XA...................vy</STATE>
     <LAYOUT>
@@ -76,11 +76,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="6" x="0.50875" y="0.5480769230769231" uiLastX_Normal="1041"
-          uiLastY_Normal="343" uiopen_Normal="1">
+  <FILTER uid="6" x="0.50875" y="0.5480769230769231" uiLastX_Normal="634"
+          uiLastY_Normal="392" uiopen_Normal="1">
     <PLUGIN name="AUAudioFilePlayer" format="AudioUnit" category="Generator"
             manufacturer="Apple" version="1.6.0" file="AudioUnit:Generators/augn,afpl,appl"
-            uid="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="17b0e3ee2dc"
+            uid="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="17b4f45aa37"
             numInputs="0" numOutputs="2" isShell="0"/>
     <STATE>583.hAGaoMGcv.C1AHv.DTfAGfPBJr.Gc3wGgvUag4VclE1XzUmbkIGUjEFcg8EDarVPUAkbkMWYzAUYxMWZyQWYtQ2TzEFcksTY4c0b0IFc4AWYWYWYxMWZu4FUzkGbk8EDOXVZrUVKxUlYkIWYtMVYyQkag0VYRDFbvwFPgxvzM3vCPDQFXYTZrUlSg0VYWIUYmk1atMmWIM2TkwVYiQWYjYTZrU1WPj0KUMWYxM2KsEFcz8BQkM2Zz8FbuPTY3k2be0TZj4VZmgFceIUct4VYxM2WC8Vak80St8UQowVYk4FJCU2bz8VaeITXisVZtc1WTIWXisVKxjBHnDSJtzFbyDpDTOAEUXwEXjgFdIUYmk1atQzakMGSu8FbZIUYmk1atQTXzE1WP.QRyMUYrU1XzUFYRU1Yo8laZIUYmk1at4TXsUFBOAAb..............fv......................13FED..........T5rwyR34wlSH8jGRVolXYV.....mAGeRA......................................fOHv...........fpgJ...9b.kfVNU1cfHUYmk1atkfDgYFbrAA.RDVcm4Vzf.gUFkFakARLXUkazkFcrUFY.f..Y.fI.rB.IAPT.jE.dA.b.TG.5Avd.zG.DBPi.TI.jF..AHP.KDfFATR.3DvPAPT.2F.tALb.DGPxArb.PGvzAnM.......f.A.........fH..................P.iC</STATE>
     <LAYOUT>

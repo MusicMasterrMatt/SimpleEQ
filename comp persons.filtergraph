@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FILTERGRAPH>
+  <FILTER uid="7" x="0.5" y="0.1">
+    <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uid="246006c0" isInstrument="0"
+            fileTime="0" infoUpdateTime="0" numInputs="0" numOutputs="2"
+            isShell="0"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="C"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="8" x="0.25" y="0.1">
+    <PLUGIN name="MIDI Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uid="a9e4f9eb" isInstrument="0"
+            fileTime="0" infoUpdateTime="0" numInputs="0" numOutputs="0"
+            isShell="0"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="9" x="0.5" y="0.9">
+    <PLUGIN name="Audio Output" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uid="724248cb" isInstrument="0"
+            fileTime="0" infoUpdateTime="0" numInputs="1" numOutputs="0"
+            isShell="0"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="10" x="0.25" y="0.9">
+    <PLUGIN name="MIDI Output" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uid="9d5bbb00" isInstrument="0"
+            fileTime="0" infoUpdateTime="0" numInputs="0" numOutputs="0"
+            isShell="0"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="11" x="0.5024999999999999" y="0.6153846153846154">
+    <PLUGIN name="Agro Compressor" format="AudioUnit" category="Effect" manufacturer="Viator DSP"
+            version="1.0.0" file="AudioUnit:Effects/aufx,V2tx,Manu" uid="7a267c75"
+            isInstrument="0" fileTime="0" infoUpdateTime="17b4f463b83" numInputs="2"
+            numOutputs="2" isShell="0"/>
+    <STATE>463.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIQSg4VcOAAK...............Azv.bf7C...PPAfxA.....rT3PvC.....kgqHo8C...fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDVICc3AA.RDVclg2SPDKTAIUPMUDUEIE..D.APEjTA0D.AHPZjAP.KTPZtAWczcTXo4F.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.LTva0QGb0Q2Qgkla.XWXrUWY.DPBD.............UPRETS.Df.oQF.AjPAxUFakE1bkAfcgwVckAP.IP.............TAIUPMAP.BjFY.D.BEPGZxU1bnAfcgwVckAP.IP.............VU4FcoQGakQF.H.PF.XB.q..N..D.HAPS.7E.jAPZ.fI.cBvm.DJ.jBfo.vJ.uBfs.rK.8BfvAXG.......f.A..........F..................P.+A</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <CONNECTION srcFilter="11" srcChannel="0" dstFilter="9" dstChannel="0"/>
+  <CONNECTION srcFilter="11" srcChannel="1" dstFilter="9" dstChannel="1"/>
+</FILTERGRAPH>
